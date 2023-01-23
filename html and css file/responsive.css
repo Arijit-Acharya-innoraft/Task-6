@@ -1,0 +1,463 @@
+@media(max-width:1280px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media(max-width:1200px) {
+
+    /* header section */
+    .header-section .cols {
+        width: 100%;
+    }
+
+    .header-section .left ul::before {
+        width: 0;
+    }
+
+    .header-section .left ul li {
+        justify-content: center;
+    }
+
+    .header-section .right ul {
+        justify-content: center;
+    }
+
+    .header-section .right ul::after {
+        width: 0;
+    }
+
+    /* end of header section */
+
+    /* three box section */
+    .Three-box-section .col {
+        width: 100%;
+        margin: 0 10px;
+    }
+
+    .Three-box-section .col .col-row {
+        margin: 15px;
+    }
+
+    /* end of three box section */
+
+    /* testimonial  section */
+    .testimonial-section .lower-section .image img {
+        width: 100%;
+    }
+
+    .testimonial-section .lower-section .image {
+        padding: 20px;
+    }
+
+    /* end of testimonialsction */
+
+    /* news section */
+    .news-section .time-comment .time-comment-col {
+        width: 50%;
+    }
+
+    /* end of news section */
+    /* contact us section */
+    .contact-us-section .bcol {
+        padding: 10px 0;
+        width: 100%;
+    }
+
+    .contact-us-section .bcol a {
+        position: relative;
+        top: 0;
+        left: 10px;
+    }
+
+    .contact-us-section .tcol {
+        width: 100%;
+    }
+
+    .footer-section .upper-part .col ul .ph-email p {
+        padding-right: 0px;
+        font-size: 15px;
+    }
+
+}
+
+@media(max-width:992px) {
+
+    /* general section */
+    h2 {
+        font-size: 30px;
+    }
+
+    /* navbar-section */
+
+    .navbar-section .logo a {
+        font-size: 40px;
+    }
+
+    .navbar-section .btn {
+        display: block;
+    }
+
+    .navbar-section .navbar {
+        display: none;
+    }
+
+    /* end of navbar section */
+
+    /* banner-section */
+    .banner-section .middle-text h1 {
+        font-size: 75px;
+    }
+
+    /* end of banner section */
+    /* three box section */
+    .Three-box-section .Three-box-logo {
+        top: 55%;
+        transform: translate(-50%, -55%);
+    }
+
+    /* welcome section */
+    .welcome-section-row {
+        flex-direction: column-reverse;
+    }
+
+    .welcome-section .cols {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    /* end of welcome section */
+
+    /* Service section */
+    .service-section .lower-part .rows .cols {
+        width: 100%;
+    }
+
+    .service-section .lower-part .rows .text {
+        text-align: left;
+    }
+
+    /* end of service section */
+
+    /* request section */
+    .request-section .col {
+        width: 100%;
+    }
+
+    /* end of request section */
+
+    /* volunteer section */
+    .volunteers-section .lower-part .cols {
+        width: 100%;
+    }
+
+    /* end of volunteer section */
+
+    /* news section */
+    .news-section .lower-part .cols {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .news-section .time-comment .time-comment-col {
+        width: 30%;
+    }
+
+    /* end of news section */
+
+    /* footer section */
+    .footer-section .upper-part .col {
+        width: 50%;
+    }
+
+    .footer-section .lower-part .sub .email {
+        padding: 10px 5px;
+        font-size: 13px;
+    }
+
+}
+
+@media(max-width:767px) {
+
+    /* general section */
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    /* icon  */
+    .fa {
+        font-size: 15px;
+    }
+
+    /* header-section */
+    .header-section .left li .text {
+        padding: 0 5px;
+        font-size: 13px;
+    }
+
+    .header-section .right li p {
+        font-size: 13px;
+    }
+
+    .header-section .right .fa {
+        padding: 4px 8px;
+    }
+
+    /* End of header section */
+
+    /* navbar section */
+    .navbar-section .logo a {
+        font-size: 30px;
+    }
+
+    /* end of navbar section */
+
+    /* banner section */
+    .banner-section .middle-text h1 {
+        font-size: 50px;
+    }
+
+    /* feature section */
+    .feature-section .col .icon {
+        font-size: 20px;
+    }
+
+    .feature-section-row .col .text p {
+        font-size: 13px;
+    }
+
+    /* end of feature section */
+
+
+    /* welcome section */
+    .welcome-section .call-row img {
+        width: 100%;
+    }
+
+    /* end of welcome section */
+
+
+    /* second banner section */
+    .second-banner-section .col-row span {
+        font-size: 30px;
+    }
+
+    .second-banner-section .col-row .text p {
+        font-size: 13px;
+    }
+
+    /* Second banner section ends here */
+
+    /* call section */
+    .call-section .call-row ul {
+        padding-inline-start: 0;
+    }
+
+    .call-section .call-row ul li {
+        width: 100%;
+    }
+
+    .call-section .call-row .location {
+        text-align: center;
+    }
+
+    .call-section .call-row .gmail {
+        text-align: center;
+    }
+
+    /* end of call section */
+
+    /* client section */
+    .testimonial-section .lower-section .cols {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .testimonial-section .lower-section .image {
+        padding: 50px;
+        width: auto;
+    }
+
+    .testimonial-section .lower-section .person {
+        text-align: center;
+        justify-content: center;
+    }
+
+    /* end of testimonial section */
+
+    /* request section */
+    .request-section .name-ph .inner-col {
+        width: 100%;
+    }
+
+    .request-section .name-ph .phone-col {
+        text-align: left;
+        margin: 25px 0;
+    }
+
+    .request-section .lower-part .name-ph {
+        margin: 25px 0;
+    }
+
+    .request-section .lower-part .input {
+        width: 100%;
+    }
+
+    /* end of request section */
+
+    /* start of footer section */
+
+    .footer-section .upper-part .col {
+        width: 100%;
+    }
+
+    .footer-section .upper-part .col ul .img-text .text {
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-section .lower-part .sub .btn {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .footer-section .upper-part .col ul li a {
+        padding: 0 10px;
+    }
+
+    .footer-section .lower-part .col {
+        width: 100%;
+    }
+
+    .footer-section .lower-part .col .icon-container {
+        justify-content: left;
+    }
+
+    .footer-section .lower-part .col .agreements {
+        justify-content: left;
+    }
+
+    .footer-section .lower-part .agreements a {
+        font-size: 13px;
+    }
+
+    .footer-section .lower-part .agreements p {
+        font-size: 13px;
+    }
+
+    .footer-section .lower-part .col p {
+        text-align: left;
+    }
+
+    .footer-section .upper-part .col ul li a {
+        padding: 0;
+    }
+}
+
+@media(max-width:567px) {
+    /* general section */
+
+    h3 {
+        font-size: 15px;
+    }
+
+    /* header section */
+    .header-section .left ul li {
+        width: 100%;
+        padding: 5px 0;
+    }
+
+    /* end of header section */
+
+    /* navbar section */
+    .navbar-section .logo a {
+        font-size: 20px;
+    }
+
+    /* end of navbar section */
+
+    /* banner section */
+    .banner-section .middle-text h1 {
+        font-size: 30px;
+    }
+
+    .banner-section .button .fa {
+        padding: 12px 12px 12px 15px;
+    }
+
+    /* end of banner section */
+
+    /* feature section */
+    .feature-section-row .col {
+        width: 100%;
+    }
+
+    /* end of feature section */
+
+    /* three box section */
+    .Three-box-section .col .Three-box-pic img {
+        width: 80%;
+    }
+
+    .Three-box-section .Three-box-logo {
+        top: 45%;
+        transform: translate(-50%, -45%);
+    }
+
+
+    .Three-box-section p {
+        font-size: 13px;
+    }
+
+    /* end of three box section */
+
+    /* second banner section */
+    .second-banner-section {
+        background-size: cover;
+    }
+
+    .second-banner-section .cols {
+        width: 100%;
+    }
+
+    /* end of second banner */
+
+    /* call section */
+    .call-section .call-row {
+        margin: 0;
+    }
+
+    .call-section {
+        padding: 50px 15px;
+    }
+
+    /* end of call section */
+
+    /*  bood owner section*/
+    .blood-owner-section .blood-owner-row {
+        margin: 100px 0;
+    }
+
+    /* end of blood owner section */
+
+    /* news section */
+    .news-section .time-comment .time-comment-col {
+        width: 40%;
+    }
+
+    /* end of news sction */
+
+
+    /* go to top button */
+    .go-top #myBtn {
+        padding: 10px 15px;
+    }
+    /* end of go to top button */
+}
